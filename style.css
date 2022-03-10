@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #202024;
+}
+
+h3 {
+  color: white;
+}
+
+input {
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 6px 15px;
+  border-radius: 5px;
+  background-color: #8257e6;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.divCopy {
+  margin: 15px 0;
+}
+
+.btnGen {
+  background-color: #3a3a41;
+}
